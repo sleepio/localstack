@@ -23,9 +23,9 @@ TMP_ARCHIVE_ES = os.path.join(tempfile.gettempdir(), 'localstack.es.zip')
 TMP_ARCHIVE_DDB = os.path.join(tempfile.gettempdir(), 'localstack.ddb.zip')
 TMP_ARCHIVE_STS = os.path.join(tempfile.gettempdir(), 'aws-java-sdk-sts.jar')
 TMP_ARCHIVE_ELASTICMQ = os.path.join(tempfile.gettempdir(), 'elasticmq-server.jar')
-URL_STS_JAR = 'http://central.maven.org/maven2/com/amazonaws/aws-java-sdk-sts/1.11.14/aws-java-sdk-sts-1.11.14.jar'
+URL_STS_JAR = 'htts://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-sts/1.11.14/aws-java-sdk-sts-1.11.14.jar'
 URL_ELASTICMQ_JAR = 'https://s3-eu-west-1.amazonaws.com/softwaremill-public/elasticmq-server-0.13.8.jar'
-URL_LOCALSTACK_FAT_JAR = ('http://central.maven.org/maven2/' +
+URL_LOCALSTACK_FAT_JAR = ('https://repo1.maven.org/maven2/' +
     'cloud/localstack/localstack-utils/0.1.5/localstack-utils-0.1.5-fat.jar')
 
 # set up logger
